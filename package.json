@@ -1,4 +1,8 @@
 {
+   "workspaces": [
+    "frontend/*",
+    "backend/*"
+  ],
   "scripts": {
     "frontend": "yarn dev --prefix ../frontend/",
     "backend": "yarn dev --prefix ../backend/",
